@@ -1,6 +1,6 @@
 {
   "name": "hyperscript-css-modules-injector",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Inject CSS Modules' stylenames transparently into hyperscript via this webpack loader",
   "main": "index.js",
   "files": [],
