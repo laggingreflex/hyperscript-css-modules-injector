@@ -1,0 +1,11 @@
+{
+  "name": "hyperscript-css-modules-injector",
+  "version": "0.0.0",
+  "description": "Inject CSS Modules' stylenames transparently into hyperscript via this webpack loader",
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "laggingreflex/hyperscript-css-modules-injector"
+}

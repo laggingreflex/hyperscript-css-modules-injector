@@ -1,0 +1,11 @@
+import h from 'preact-hyperscript-h';
+import style from './style.styl';
+
+export default ({} = {}) => ({ chain = [] } = {}) =>
+h(`ol.breadcrumb.${style['breadcrumb']}`, { class: style.breadcrumb }, chain.map(c =>
+  h('li', { class: style.item, }, [
+    h('a', { href: c.path }, [
+      c.name
+    ])
+  ])
+) || []);
