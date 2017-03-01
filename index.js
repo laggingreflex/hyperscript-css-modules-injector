@@ -7,5 +7,5 @@ module.exports = source => {
 
   if (!styleMatch) return source;
 
-  return source.replace(/h\('([\w]+?)\.([\w]+)(.*?)',/g, "h(`$1.$2.${style['$2']}$3`,");
+  return source.replace(/h\('([\w]+?)\.([\w-_]+)(.*?)',/g, "h(`$1.$2.${style['$2']}$3`,");
 }
